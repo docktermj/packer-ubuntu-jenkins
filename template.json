@@ -106,6 +106,7 @@
 					"scripts/base.sh",
 					"scripts/vagrant.sh",
 					"scripts/virtualbox.sh",
+					"scripts/jenkins.sh",
 					"scripts/cleanup.sh",
 					"scripts/zerodisk.sh"
 				]
@@ -115,6 +116,7 @@
 					"scripts/base.sh",
 					"scripts/vagrant.sh",
 					"scripts/vmware.sh",
+					"scripts/jenkins.sh",
 					"scripts/cleanup.sh",
 					"scripts/zerodisk.sh"
 				]
