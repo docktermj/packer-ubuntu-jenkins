@@ -8,3 +8,5 @@
    cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
 1. Click "Install suggested plugins"
+1. In "Create First Admin User" dialog
+   1. 
