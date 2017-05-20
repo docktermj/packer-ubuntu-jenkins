@@ -1,4 +1,4 @@
-# packer-ubuntu-14.04
+# packer-ubuntu-jenkins-master
 
 This repository builds a machine image using
 [Packer](https://www.packer.io/)
