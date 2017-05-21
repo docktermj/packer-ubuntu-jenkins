@@ -5,6 +5,9 @@
 1. On Jenkins server, find administrator password.
 
    ```console
-   cat /var/lib/jenkins/secrets/initialAdminPassword
+   sudo cat /var/lib/jenkins/secrets/initialAdminPassword
    ```
 1. Click "Install suggested plugins"
+1. In "Create First Admin User" dialog
+   1. **Username:** jenkins
+   1. **Password:** passw0rd
