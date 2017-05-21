@@ -18,7 +18,7 @@
 1. Jenkins > Manage Jenkins > Manage Nodes > New Node
    1. In "Jenkins > New Node" dialog:
       1. **Node name:** CentOS NN
-      1. :radio_button: Perminant Agent
+      1. :radio_button: Permanent Agent
       1. Click "OK" button
    1. In "Configure" dialog: 
       1. **Remote rood directory:** /home/jenkins
@@ -30,5 +30,7 @@
                1. **Username:** jenkins
                1. **Password:** jenkins
                1. Click "Add" button
+            1. In drop-down, choose "jenkins/******"
          1. **Host Key Verification Strategy:** Non verifying Verification Strategy
+            1. **Note:** this is not secure, but it works until we figure out how to use a different option.
       1. Click "Save" button.
