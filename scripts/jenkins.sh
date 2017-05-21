@@ -27,9 +27,3 @@ echo 'deb https://pkg.jenkins.io/debian-stable binary/' | tee -a /etc/apt/source
 
 apt-get update
 apt-get -y install jenkins
-
-# Start Jenkins on port 8080 at reboot.
-
-systemctl start jenkins
-systemctl enable jenkins
-
